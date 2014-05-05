@@ -9,7 +9,10 @@ install:
 jshint: install
 	@./node_modules/.bin/jshint .
 
-test: install
+build:
+	@node-gyp build
+
+test: build
 	@NODE_ENV=test ./node_modules/.bin/mocha \
 		--harmony \
 		--reporter $(REPORTER) \
@@ -37,4 +40,4 @@ autod: install
 contributors: install
 	@./node_modules/.bin/contributors -f plain -o AUTHORS
 
-.PHONY: test
+.PHONY: test build

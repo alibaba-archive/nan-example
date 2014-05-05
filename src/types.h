@@ -1,5 +1,5 @@
 /**!
- * nan-example - lib/nan-example.js
+ * nan-example - src/types.h
  *
  * Copyright(c) 2014 fengmk2 and other contributors.
  * MIT Licensed
@@ -8,10 +8,11 @@
  *   fengmk2 <fengmk2@gmail.com> (http://fengmk2.github.com)
  */
 
-"use strict";
+#ifndef NAN_EXAMPLE_TYPES_H_
+#define NAN_EXAMPLE_TYPES_H_
 
-/**
- * Module dependencies.
- */
+#include <nan.h>
 
-var varname = require('modulename');
+NAN_METHOD(showTypes);
+
+#endif // NAN_EXAMPLE_TYPES_H_

@@ -12,15 +12,11 @@
     }
   },
   "dependencies": {
-
+    "nan": ">=1.0.0"
   },
   "devDependencies": {
-    "autod": "*",
-    "contributors": "*",
     "should": "*",
     "jshint": "*",
-    "cov": "*",
-    "istanbul-harmony": "*",
     "mocha": "*"
   },
   "homepage": "https://github.com/fengmk2/nan-example",
