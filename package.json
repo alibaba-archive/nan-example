@@ -1,0 +1,44 @@
+{
+  "name": "nan-example",
+  "version": "0.0.0",
+  "description": "nan-example",
+  "main": "index.js",
+  "scripts": {
+    "test": "make test-all"
+  },
+  "config": {
+    "cov": {
+      "threshold": 100
+    }
+  },
+  "dependencies": {
+
+  },
+  "devDependencies": {
+    "autod": "*",
+    "contributors": "*",
+    "should": "*",
+    "jshint": "*",
+    "cov": "*",
+    "istanbul-harmony": "*",
+    "mocha": "*"
+  },
+  "homepage": "https://github.com/fengmk2/nan-example",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/fengmk2/nan-example.git",
+    "web": "https://github.com/fengmk2/nan-example"
+  },
+  "bugs": {
+    "url": "https://github.com/fengmk2/nan-example/issues",
+    "email": "fengmk2@gmail.com"
+  },
+  "keywords": [
+    "nan-example"
+  ],
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "author": "fengmk2 <fengmk2@gmail.com> (http://fengmk2.github.com)",
+  "license": "MIT"
+}
